@@ -30,3 +30,9 @@ org/patterns/adapter/Main.java
  org.patterns.adapter.Main
 org/patterns/decorator/Main.java
  org.patterns.decorator.Main
+org/patterns/singleton/NaiveSingleton.java
+ org.patterns.singleton.NaiveSingleton
+org/patterns/singleton/EnumSingleton.java
+ org.patterns.singleton.EnumSingleton
+org/patterns/singleton/Main.java
+ org.patterns.singleton.Main
