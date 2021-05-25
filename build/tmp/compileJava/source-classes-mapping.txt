@@ -1,38 +1,53 @@
-org/patterns/strategy/Message.java
- org.patterns.strategy.Message
-org/patterns/strategy/Sender.java
- org.patterns.strategy.Sender
-org/patterns/strategy/SendService.java
- org.patterns.strategy.SendService
-org/patterns/strategy/MailSender.java
- org.patterns.strategy.MailSender
-org/patterns/strategy/SmsSender.java
- org.patterns.strategy.SmsSender
-org/patterns/strategy/Main.java
- org.patterns.strategy.Main
-org/patterns/decorator/PrinterDecor.java
- org.patterns.decorator.PrinterDecor
-org/patterns/decorator/old/Printable.java
- org.patterns.decorator.old.Printable
-org/patterns/decorator/HtmlPrinterDecor.java
- org.patterns.decorator.HtmlPrinterDecor
-org/patterns/decorator/old/Printer.java
- org.patterns.decorator.old.Printer
 org/patterns/adapter/InchToMmDictancerAdapter.java
  org.patterns.adapter.InchToMmDictancerAdapter
-org/patterns/decorator/JsonPrinterDecor.java
- org.patterns.decorator.JsonPrinterDecor
-org/patterns/adapter/MmDistancer.java
- org.patterns.adapter.MmDistancer
+org/patterns/strategy/SendService.java
+ org.patterns.strategy.SendService
+org/patterns/factory/base/AutoTransport.java
+ org.patterns.factory.base.AutoTransport
+org/patterns/strategy/SmsSender.java
+ org.patterns.strategy.SmsSender
+org/patterns/decorator/old/Printer.java
+ org.patterns.decorator.old.Printer
 org/patterns/adapter/InchDistancer.java
  org.patterns.adapter.InchDistancer
+org/patterns/strategy/Message.java
+ org.patterns.strategy.Message
+org/patterns/factory/TransportFactory.java
+ org.patterns.factory.TransportFactory
+org/patterns/singleton/Main.java
+ org.patterns.singleton.Main
+org/patterns/strategy/Main.java
+ org.patterns.strategy.Main
+org/patterns/decorator/HtmlPrinterDecor.java
+ org.patterns.decorator.HtmlPrinterDecor
+org/patterns/strategy/MailSender.java
+ org.patterns.strategy.MailSender
+org/patterns/singleton/NaiveSingleton.java
+ org.patterns.singleton.NaiveSingleton
+org/patterns/factory/base/AviaTransport.java
+ org.patterns.factory.base.AviaTransport
+org/patterns/decorator/old/Printable.java
+ org.patterns.decorator.old.Printable
+org/patterns/factory/AutoTransportFactory.java
+ org.patterns.factory.AutoTransportFactory
+org/patterns/adapter/MmDistancer.java
+ org.patterns.adapter.MmDistancer
+org/patterns/singleton/EnumSingleton.java
+ org.patterns.singleton.EnumSingleton
+org/patterns/factory/Demo.java
+ org.patterns.factory.Demo
+ org.patterns.factory.Demo$TransportType
+org/patterns/factory/AviaTransportFactory.java
+ org.patterns.factory.AviaTransportFactory
+org/patterns/decorator/PrinterDecor.java
+ org.patterns.decorator.PrinterDecor
+org/patterns/decorator/JsonPrinterDecor.java
+ org.patterns.decorator.JsonPrinterDecor
+org/patterns/strategy/Sender.java
+ org.patterns.strategy.Sender
 org/patterns/adapter/Main.java
  org.patterns.adapter.Main
 org/patterns/decorator/Main.java
  org.patterns.decorator.Main
-org/patterns/singleton/NaiveSingleton.java
- org.patterns.singleton.NaiveSingleton
-org/patterns/singleton/EnumSingleton.java
- org.patterns.singleton.EnumSingleton
-org/patterns/singleton/Main.java
- org.patterns.singleton.Main
+org/patterns/factory/base/Transport.java
+ org.patterns.factory.base.Transport
